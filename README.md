@@ -59,7 +59,7 @@ Finds the first index where `target` can be inserted while maintaining order.
 console.log(bs.lowerBound([1, 3, 5, 7, 9], 6)); // Output: 3
 ```
 
-#### `upperBound(arr, target)`
+#### `upperBound(arr, target) you can use this to find the ceil of number`
 
 Finds the first index where `target` is strictly greater.
 
