@@ -13,7 +13,7 @@ npm install searchify-binary
 Import the class in your JavaScript or TypeScript project:
 
 ```javascript
-import { BinarySearch } from "binary-search-utility";
+import { BinarySearch } from "searchify-binary";
 ```
 
 ### Methods

@@ -1,6 +1,6 @@
 {
   "name": "searchify-binary",
-  "version": "1.0.0",
+  "version": "1.0.111",
   "description": "A utility class for binary search operations in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "binary search",
     "algorithm",
     "search",
-    "utility"
+    "utility",
+    "binary search toggle",
+    "binary search with toggle",
+    "lower bound",
+    "upper bound",
+    "binary search recurssive"
   ],
   "author": "Balaji",
   "license": "MIT",
