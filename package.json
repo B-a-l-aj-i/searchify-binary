@@ -1,6 +1,6 @@
 {
   "name": "searchify-binary",
-  "version": "1.0.111",
+  "version": "1.0.2",
   "description": "A utility class for binary search operations in JavaScript",
   "main": "index.js",
   "scripts": {
