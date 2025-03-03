@@ -1,4 +1,4 @@
-class BinarySearch {
+export class BinarySearch {
   binarySearch(arr, target) {
     let low = 0;
     let high = arr.length - 1;
@@ -63,5 +63,17 @@ class BinarySearch {
     }
 
     return low;
+  }
+  binarySearchToggle(arr, target) {
+    let index = this.binarySearch(arr, target);
+
+    if (index !== -1) {
+      arr.splice(index, 1);
+    } else {
+      let pos = this.lowerBound(arr, target);
+      arr.splice(pos, 0, target);
+    }
+
+    return arr;
   }
 }
